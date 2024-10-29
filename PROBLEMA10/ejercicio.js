@@ -3,7 +3,7 @@
 let cadena = prompt("Ingrese una palabra: ");
 
 function quitarVocales(cadena){
-    const vocales = ["a", "e", "i", "o", "u"];
+    const vocales = '"a", "e", "i", "o", "u", "A", "E", "I", "O", "U"';
     let resultado = '';
 
     for(let i = 0; i < cadena.length; i++){
